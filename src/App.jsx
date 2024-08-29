@@ -1,22 +1,24 @@
 import React from 'react';
 import styles from './style';
-import { Navbar } from './components';
+import { Navbar, Hero } from './components';
 
 
 const App = () => (
     <div>
-      <div className={`bg-primaryPurple ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`bg-primaryDark ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
          <Navbar />
         </div>
       </div>
 
-      <div className={`bg-primaryOrange ${styles.flexStart}`}>
+      <div className={`bg-primaryDark ${styles.flexStart}`}>
+      <div className='w-[600px] h-[600px] absolute bottom-0 -left-5 bg-primaryBlue rounded-full blur-[500px]'></div>
+      <div className='w-[600px] h-[600px] absolute top-0 -right-5 bg-primaryPurple rounded-full blur-[500px]'></div>
         <div className={`${styles.boxWidth}`}>
-          Hero component
+          <Hero />
         </div>
       </div>
-
+{/* 
       <div className={` bg-primaryBlue ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           Trends
@@ -28,7 +30,7 @@ const App = () => (
           footer
 
         </div>
-      </div>
+      </div> */}
 
     </div>
   )
