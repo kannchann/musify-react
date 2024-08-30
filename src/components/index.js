@@ -1,5 +1,7 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Hero from "./Hero";
+import Button from "./Button";
+import Cart from "./Cart";
+import PopularCard from "./PopularCard";
+import Search from "./Search";
+import ThemeToggle from "./ThemeToggle";
 
-export { Navbar, Footer, Hero };
+export { Button, Cart, PopularCard, Search, ThemeToggle };
