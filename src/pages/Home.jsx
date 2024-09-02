@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Hero } from "../layout";
-import styles from "../style";
 import Carousel from "../layout/Carousel";
+import Banner from "../layout/Banner";
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Carousel />
+      <Banner />
     </div>
   );
 };

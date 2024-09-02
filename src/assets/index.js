@@ -8,6 +8,10 @@ import searchIcon from "./Search.svg";
 import scroll from "./scroll.svg";
 import redHeadphones from "./red-headphone.svg";
 import blackHeadphones from "./black-headphones.jpeg";
+import Checked from "./Checked.svg";
+import Customer from "./Customer.svg";
+import deliverIcon from "./deliverIcon.svg";
+import discount from "./discount.png";
 
 export {
   logo,
@@ -20,4 +24,8 @@ export {
   scroll,
   redHeadphones,
   blackHeadphones,
+  Checked,
+  Customer,
+  deliverIcon,
+  discount,
 };
