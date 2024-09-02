@@ -6,9 +6,9 @@ import styles from '../style';
 
 const Navbar = () => {
   return (
-    <nav className={`bg-primaryDark ${styles.paddingX}`}>
-      <div className={`${styles.boxWidth}`}>
-        <div className="flex flex-1 items-center justify-between py-4">
+    <nav className={`bg-primaryDark  ${styles.paddingX}`}>
+      <div className={`${styles.boxWidth} relative z-100`}>
+        <div className="flex flex-1 items-center justify-between">
         <MobileNavbar />
           <img src={logo} alt="logo" className="w-[100px] h-auto" />
 

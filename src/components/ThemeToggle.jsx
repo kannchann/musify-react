@@ -20,7 +20,7 @@ const ThemeToggle = () => {
     }
   }, [darkMode]);
 
-  return <button onClick={changeTheme} className="bg-white rounded-full  flex justify-between items-center px-1">
+  return <button onClick={changeTheme} className="bg-black rounded-full  flex justify-between items-center px-1">
     
     
     <img src={Moon} alt="" className="w-[25px] h[25px] object-contain"/>

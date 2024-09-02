@@ -1,5 +1,5 @@
 const styles = {
-  boxWidth: "xl:max-w-[1300px] w-full",
+  boxWidth: "xl:max-w-[1300px] w-full mx-auto",
 
   heading2:
     "font-FigTree font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] w-full",

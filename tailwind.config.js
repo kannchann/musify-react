@@ -11,9 +11,13 @@ export default {
         primaryOrange: "hsla(14, 89%, 52%, 1)",
         primaryYellow: "hsla(34, 97%, 54%, 1)",
         textGrey: "#A4A4A4",
+        textHighlight: "#FC9918",
       },
       fontFamily: {
         figTree: ["Figtree", "sans-serif"],
+      },
+      variants: {
+        fill: ["hover", "focus"],
       },
     },
   },
