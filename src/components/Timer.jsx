@@ -5,22 +5,31 @@ const Timer = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = "September, 3, 2024";
+  const deadline = new Date("September 4, 2024").getTime(); // Corrected date parsing for consistency
 
   const getTime = () => {
-    const time = Date.parse(deadline) - Date.now();
+    const time = deadline - Date.now();
+
+    // Check if time is zero or negative
+    if (time <= 0) {
+      setHours(0);
+      setMinutes(0);
+      setSeconds(0);
+      return; // Stop further execution once countdown is complete
+    }
+
     setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
     setMinutes(Math.floor((time / 1000 / 60) % 60));
     setSeconds(Math.floor((time / 1000) % 60));
   };
+
   useEffect(() => {
-    const interval = setInterval(() => getTime(deadline), 1000);
+    const interval = setInterval(() => getTime(), 1000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    
     <div className="flex space-x-4 text-2xl font-bold" role="timer">
       <div className="bg-primaryPurple p-3 rounded-lg">
         <p id="hour">{hours < 10 ? "0" + hours : hours}</p>
