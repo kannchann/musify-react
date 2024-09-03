@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../style";
 import { CardWrapper, PopularCardContent } from "./ui";
-import { newArrivalsOne } from "../assets";
+import { newArrivalsOne, newArrivalsThree, newArrivalsTwo } from "../assets";
 const NewArrivalsSection = () => {
   return (
     <div className="bg-black text-white">
@@ -9,10 +9,34 @@ const NewArrivalsSection = () => {
         <h2 className="text-3xl p-8 text-center font-bold tracking-wider">
           New Arrivals
         </h2>
-        <div>
-        <CardWrapper cardColor="primaryPurple">
+        <div className="grid grid-flow-col justify-between gap-7 overflow-scroll no-scrollbar">
+        <CardWrapper cardColor="bg-primaryPurple">
             <PopularCardContent img={newArrivalsOne}/>
         </CardWrapper>
+        <CardWrapper cardColor="bg-primaryPurple">
+            <PopularCardContent img={newArrivalsTwo}/>
+        </CardWrapper>
+        <CardWrapper cardColor="bg-primaryPurple">
+            <PopularCardContent img={newArrivalsThree}/>
+        </CardWrapper>
+        <CardWrapper cardColor="bg-primaryPurple">
+            <PopularCardContent img={newArrivalsOne}/>
+        </CardWrapper>
+        <CardWrapper cardColor="bg-primaryPurple">
+            <PopularCardContent img={newArrivalsOne}/>
+        </CardWrapper>
+        <CardWrapper cardColor="bg-primaryPurple">
+            <PopularCardContent img={newArrivalsTwo}/>
+        </CardWrapper>
+        <CardWrapper cardColor="bg-primaryPurple">
+            <PopularCardContent img={newArrivalsThree}/>
+        </CardWrapper>
+        <CardWrapper cardColor="bg-primaryPurple">
+            <PopularCardContent img={newArrivalsOne}/>
+        </CardWrapper>
+        
+        
+        
 
         </div>
 

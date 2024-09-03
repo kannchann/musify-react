@@ -21,6 +21,18 @@ const Carousel = () => {
           <CardWrapper  cardColor="popular-card-gradient">
             <PopularCardContent img={blackHeadphones} />
           </CardWrapper>
+          <CardWrapper cardColor="popular-card-gradient">
+            <PopularCardContent img={blackHeadphones}/>
+          </CardWrapper>
+          <CardWrapper  cardColor="popular-card-gradient">
+            <PopularCardContent img={blackHeadphones}/>
+          </CardWrapper>
+          <CardWrapper  cardColor="popular-card-gradient">
+            <PopularCardContent img={blackHeadphones} />
+          </CardWrapper>
+          <CardWrapper  cardColor="popular-card-gradient">
+            <PopularCardContent img={blackHeadphones} />
+          </CardWrapper>
         </div>
       </div>
     </div>
