@@ -30,15 +30,23 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className="flex space-x-4 text-2xl font-bold" role="timer">
-      <div className="bg-primaryPurple p-3 rounded-lg">
-        <p id="hour">{hours < 10 ? "0" + hours : hours}</p>
+    <div className="leading-3">
+      <div className="p-5 text-xl ">Offer ends in</div>
+      <div className="flex space-x-4 text-2xl font-bold" role="timer">
+        <div className="bg-primaryPurple p-3 rounded-lg">
+          <p id="hour">{hours < 10 ? "0" + hours : hours}</p>
+        </div>
+        <div className="bg-primaryPurple p-3 rounded-lg">
+          <p id="minute">{minutes < 10 ? "0" + minutes : minutes}</p>
+        </div>
+        <div className="bg-primaryPurple p-3 rounded-lg">
+          <p id="second">{seconds < 10 ? "0" + seconds : seconds}</p>
+        </div>
       </div>
-      <div className="bg-primaryPurple p-3 rounded-lg">
-        <p id="minute">{minutes < 10 ? "0" + minutes : minutes}</p>
-      </div>
-      <div className="bg-primaryPurple p-3 rounded-lg">
-        <p id="second">{seconds < 10 ? "0" + seconds : seconds}</p>
+      <div className="flex space-x-4 items-center">
+        <p className="p-4">hr</p>
+        <p className="p-4">min</p>
+        <p className="p-3">sec</p>
       </div>
     </div>
   );

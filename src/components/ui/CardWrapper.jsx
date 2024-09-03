@@ -5,7 +5,6 @@ const CardWrapper = ({children}) => {
   return (
     <div className='hero-card-gradient relative rounded-2xl border text-white border-white cursor-pointer'>
       {children}
-
     </div>
   )
 }

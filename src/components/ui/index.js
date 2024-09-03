@@ -6,7 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 import HeroCard from "./HeroCard";
 import Timer from "./Timer";
 import PopularCardContent from "./PopularCardContent";
-import Banner from "./Banner";
+import Banner from "../Banner";
 
 export {
   Button,
