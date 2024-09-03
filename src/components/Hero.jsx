@@ -52,13 +52,13 @@ const Hero = () => {
               className="w-[60px] h-[60px] cursor-pointer"
             />
             <div className="flex  space-x-10 ">
-              <CardWrapper>
+              <CardWrapper cardColor="hero-card-gradient">
+                <HeroCard />
+              </CardWrapper >
+              <CardWrapper cardColor="hero-card-gradient">
                 <HeroCard />
               </CardWrapper>
-              <CardWrapper>
-                <HeroCard />
-              </CardWrapper>
-              <CardWrapper>
+              <CardWrapper cardColor="hero-card-gradient">
                 <HeroCard />
               </CardWrapper>
             </div>

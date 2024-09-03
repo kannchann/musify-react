@@ -1,7 +1,6 @@
 import React from "react";
-import { Navbar, Hero, Carousel } from "../components";
-import { Banner} from "../components/ui";
-import AccessoriesSection from "../components/AccessoriesSection";
+import {  Hero, Carousel,AccessoriesSection,Banner,NewArrivalsSection} from "../components";
+
 
 
 const Home = () => {
@@ -11,6 +10,7 @@ const Home = () => {
       <Carousel />
       <Banner />
       <AccessoriesSection />
+      <NewArrivalsSection />
     </div>
   );
 };

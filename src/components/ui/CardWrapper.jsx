@@ -1,9 +1,9 @@
 import React from 'react'
 
 
-const CardWrapper = ({children}) => {
+const CardWrapper = ({cardColor, children}) => {
   return (
-    <div className='hero-card-gradient relative rounded-2xl border text-white border-white cursor-pointer'>
+  <div className={`${cardColor} relative rounded-2xl border text-white border-white cursor-pointer`}>
       {children}
     </div>
   )

@@ -3,11 +3,11 @@ import { blackHeadphones,cartIcon } from "../../assets";
 import {Button} from "./index";
 
 
-const PopularCardContent = () => {
+const PopularCardContent = ({img=""}) => {
   return (
     <div className="w-[310px]">
       <div className="h-[300px]">
-        <img src={blackHeadphones} alt="" className="w-full h-full rounded-t-2xl object-cover" />
+        <img src={img} alt="" className="w-full h-full rounded-t-2xl object-cover" />
       </div>
       <div className="w-full flex flex-col gap-2 px-2 py-2">
         <h2 className="lg:text-lg">Wireless Headphones with Dolby Surround Sound</h2>
