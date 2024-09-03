@@ -12,6 +12,14 @@ import Checked from "./Checked.svg";
 import Customer from "./Customer.svg";
 import deliverIcon from "./deliverIcon.svg";
 import discount from "./discount.png";
+import newArrivalsOne from "./newarrivals-one.jpeg";
+import newArrivalsTwo from "./newarrivals-two.jpeg";
+import newArrivalsThree from "./newarrivals-three.jpeg";
+
+import soundBar from "./soundBar.jpeg";
+import speaker from "./speaker.jpeg";
+import siri from "./siri.jpeg";
+import watch from "./watch.jpeg";
 
 export {
   logo,
@@ -28,4 +36,11 @@ export {
   Customer,
   deliverIcon,
   discount,
+  newArrivalsOne,
+  newArrivalsTwo,
+  newArrivalsThree,
+  soundBar,
+  siri,
+  speaker,
+  watch,
 };

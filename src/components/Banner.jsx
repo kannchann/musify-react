@@ -30,7 +30,7 @@ const Banner = () => {
 
 
 
-      <div className={` ${styles.paddingY} flex flex-col space-y-7 justify-center items-center md:flex-row md:justify-around `}>
+      <div className={` ${styles.paddingY} flex flex-col space-y-7 justify-center items-center md:flex-row md:justify-around ${styles.boxWidth}`}>
       <h2 className="text-3xl font-bold text-center block md:hidden">Exclusive Offer</h2>
       <div className="rounded-full bg-primaryBlue w-[290px] lg:w-[500px] relative  ">
             <div className="absolute bg-primaryPurple text-white w-[100px] h-[100px] left-[10%] rounded-full text-center p-6 font-bold text-xl">
