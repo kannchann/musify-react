@@ -1,6 +1,6 @@
 import React from "react";
-import { blackHeadphones,cartIcon } from "../assets";
-import Button from "./Button";
+import { blackHeadphones,cartIcon } from "../../assets";
+import {Button} from "./index";
 
 
 const PopularCardContent = () => {

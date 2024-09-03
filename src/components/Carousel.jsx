@@ -1,6 +1,5 @@
 import React from "react";
-import { CardWrapper } from "../components";
-import PopularCardContent from "../components/PopularCardContent";
+import { CardWrapper, PopularCardContent } from "../components/ui";
 import styles from "../style";
 
 const Carousel = () => {

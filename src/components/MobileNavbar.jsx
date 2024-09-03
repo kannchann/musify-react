@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { logo, hamburger, close } from '../assets';
+import { hamburger, close } from '../assets';
 import { navLinks } from '../constants';
 
 const MobileNavbar = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { cartIcon } from '../assets';
+import { cartIcon } from '../../assets';
 
 const Cart = () => {
   return (

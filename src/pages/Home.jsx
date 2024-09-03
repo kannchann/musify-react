@@ -1,7 +1,7 @@
 import React from "react";
-import { Navbar, Hero } from "../layout";
-import Carousel from "../layout/Carousel";
-import Banner from "../layout/Banner";
+import { Navbar, Hero, Carousel } from "../components";
+import { Banner} from "../components/ui";
+
 
 const Home = () => {
   return (

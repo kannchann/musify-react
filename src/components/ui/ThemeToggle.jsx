@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from "react";
-import { Moon } from "../assets";
+import { Moon } from "../../assets";
 
 const ThemeToggle = () => {
   const [darkMode, setDarkMode] = useState(false);

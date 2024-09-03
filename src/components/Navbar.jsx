@@ -1,7 +1,7 @@
 import { logo } from "../assets";
 import { navLinks } from "../constants";
-import { Search, Button, Cart, ThemeToggle } from "../components";
-import MobileNavbar from "./MobileNavbar";
+import { Search, Button, Cart, ThemeToggle } from "./ui";
+import {MobileNavbar} from "../components";
 import styles from '../style';
 
 const Navbar = () => {

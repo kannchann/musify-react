@@ -1,5 +1,5 @@
 import React from "react";
-import { redHeadphones } from '../assets'
+import { redHeadphones } from '../../assets'
 
 const HeroCard = () => {
   return (

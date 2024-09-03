@@ -1,9 +1,8 @@
 import React from "react";
 import { cartIcon, hero_image, scroll } from "../assets";
-import { Button, CardWrapper } from "../components";
 import styles from "../style";
-import HeroCard from "../components/HeroCard";
-import PopularCardContent from "../components/PopularCardContent";
+import {HeroCard, Button, CardWrapper} from "./ui";
+
 
 const Hero = () => {
   return (
@@ -14,11 +13,11 @@ const Hero = () => {
       <div className="w-[600px] h-[600px] hidden md:block absolute bottom-10 left-5 bg-primaryBlue rounded-full blur-[500px]"></div>
       <div className="w-[600px] h-[600px] hidden md:block  absolute top-0 right-5 bg-primaryPurple rounded-full blur-[500px]"></div>
       {/* hero-image  */}
-      <img
+      {/* <img
         src={hero_image}
         alt="Hero"
         className="object-contain w-1/2 absolute bottom-0 right-0 bg-hero-image-gradient"
-      />
+      /> */}
 
       {/* Content Wrapper */}
       <div className={`relative flex flex-col z-10 ${styles.boxWidth}`}>

@@ -1,7 +1,7 @@
-import Button from "./Button";
-import Cart from "./Cart";
-import CardWrapper from "./CardWrapper";
-import Search from "./Search";
-import ThemeToggle from "./ThemeToggle";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Hero from "./Hero";
+import Carousel from "./Carousel";
+import MobileNavbar from "./MobileNavbar";
 
-export { Button, Cart, CardWrapper, Search, ThemeToggle };
+export { Navbar, Footer, Hero, Carousel, MobileNavbar };
