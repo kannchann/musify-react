@@ -6,6 +6,7 @@ import MobileNavbar from "./MobileNavbar";
 import AccessoriesSection from "./AccessoriesSection";
 import NewArrivalsSection from "./NewArrivalsSection";
 import Banner from "./Banner";
+import QRSection from "../components/QRSection";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Banner,
   AccessoriesSection,
   NewArrivalsSection,
+  QRSection,
 };

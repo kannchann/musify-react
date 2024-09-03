@@ -20,6 +20,9 @@ import soundBar from "./soundBar.jpeg";
 import speaker from "./speaker.jpeg";
 import siri from "./siri.jpeg";
 import watch from "./watch.jpeg";
+import qr from "./qr.png";
+import playStore from "./playStore.png";
+import appStore from "./appStore.svg";
 
 export {
   logo,
@@ -43,4 +46,7 @@ export {
   siri,
   speaker,
   watch,
+  qr,
+  appStore,
+  playStore,
 };

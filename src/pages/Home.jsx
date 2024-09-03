@@ -1,5 +1,6 @@
 import React from "react";
-import {  Hero, Carousel,AccessoriesSection,Banner,NewArrivalsSection} from "../components";
+import {  Hero, Carousel,AccessoriesSection,Banner,NewArrivalsSection, QRSection} from "../components";
+
 
 
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Banner />
       <AccessoriesSection />
       <NewArrivalsSection />
+      <QRSection />
     </div>
   );
 };
