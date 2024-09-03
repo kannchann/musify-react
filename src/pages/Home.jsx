@@ -6,7 +6,6 @@ import { Banner} from "../components/ui";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Carousel />
       <Banner />

@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import { Link } from 'react-router-dom';
 
 const Button = ({
   type = 'button',
@@ -7,6 +8,7 @@ const Button = ({
   size = 'medium',
   className = '',
   iconsrc = '',
+  link = "",
 }) => {
   // Memoized variant classes to avoid unnecessary recalculations
   const variantClass = useMemo(() => {
@@ -47,7 +49,10 @@ const Button = ({
     <div>
      {renderIcon}
      <button type={type} className={buttonClasses}>
+      <Link to={`/${link}`}>
       {btnText}
+      </Link>
+     
     </button>
     </div>
    

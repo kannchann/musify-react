@@ -33,12 +33,13 @@ const Hero = () => {
             Commodo purus, eu sed suspendisse fermentum.
           </p>
           <div className="flex gap-2">
-            <Button btnText="Shop now" variant="primary" size="small" />
+            <Button btnText="Shop now" variant="primary" size="small" link="payment" />
             <Button
               btnText="Add to Cart"
               variant="secondary"
               size="small"
               iconsrc={cartIcon}
+              link="cart"
             />
           </div>
           </div>

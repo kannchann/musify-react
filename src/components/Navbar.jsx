@@ -3,6 +3,7 @@ import { navLinks } from "../constants";
 import { Search, Button, Cart, ThemeToggle } from "./ui";
 import {MobileNavbar} from "../components";
 import styles from '../style';
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -20,7 +21,9 @@ const Navbar = () => {
                   key={navLink.id}
                   className="cursor-pointer transition-all text-white hover:border-b-2 hover:border-primaryOrange"
                 >
+                   <NavLink to={`${navLink.path}`} className={({isActive}) => { return isActive ? 'text-primaryOrange' : '' }}>
                   {navLink.title}
+                  </NavLink>
                 </li>
               ))}
             </ul>
@@ -30,7 +33,7 @@ const Navbar = () => {
             <Search />
             <Cart />
             <div className="hidden md:block">
-            <Button btnText="Login" variant="secondary" size="small" />
+            <Button btnText="Login" variant="secondary" size="small" link="login" />
 
 
             </div>
