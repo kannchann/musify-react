@@ -24,7 +24,7 @@ import qr from "./qr.png";
 import playStore from "./playStore.png";
 import appStore from "./appStore.svg";
 
-import InstaLogo from "./InstaLogo.svg";
+import InstaLogo from "./Instalogo.svg";
 import GoogleLogo from "./GoogleLogo.svg";
 import TwitterLogo from "./TwitterLogo.svg";
 
