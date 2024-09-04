@@ -37,7 +37,7 @@ const Button = ({
   }, [size]);
 
   // Combine all classes into a single className string
-  const buttonClasses = `border font-figTree rounded-2xl transition ease-in-out delay-150 text-sm   ${variantClass} ${sizeClass} ${className}`;
+  const buttonClasses = `border font-figTree rounded-lg transition ease-in-out delay-150 text-sm   ${variantClass} ${sizeClass} ${className}`;
 
   const renderIcon = iconsrc ? (
     <span className={`flex relative`}>

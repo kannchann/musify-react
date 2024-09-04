@@ -24,6 +24,10 @@ import qr from "./qr.png";
 import playStore from "./playStore.png";
 import appStore from "./appStore.svg";
 
+import InstaLogo from "./InstaLogo.svg";
+import GoogleLogo from "./GoogleLogo.svg";
+import TwitterLogo from "./TwitterLogo.svg";
+
 export {
   logo,
   hamburger,
@@ -49,4 +53,7 @@ export {
   qr,
   appStore,
   playStore,
+  InstaLogo,
+  GoogleLogo,
+  TwitterLogo,
 };
