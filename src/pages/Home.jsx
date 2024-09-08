@@ -1,5 +1,6 @@
 import React from "react";
-import {  Hero, Carousel,AccessoriesSection,Banner,NewArrivalsSection, QRSection} from "../components";
+import {  Hero, Carousel,AccessoriesSection,Banner, QRSection} from "../components";
+import { newArrivalProduct, popularProduct } from "../constants";
 
 
 
@@ -8,10 +9,10 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <Carousel />
+      <Carousel heading="Popular Trends" color="popular-card-gradient" data={popularProduct}/>
       <Banner />
       <AccessoriesSection />
-      <NewArrivalsSection />
+      <Carousel heading="New Arrivals" color="bg-primaryPurple" data={newArrivalProduct} />
       <QRSection />
     </div>
   );

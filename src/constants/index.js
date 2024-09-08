@@ -1,4 +1,17 @@
-import { blackHeadphones, redHeadphones } from "../assets";
+import {
+  blackHeadphones,
+  Checked,
+  Customer,
+  deliverIcon,
+  newArrivalsOne,
+  newArrivalsThree,
+  newArrivalsTwo,
+  redHeadphones,
+  siri,
+  soundBar,
+  speaker,
+  watch,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -47,7 +60,52 @@ export const footerData = {
   ],
 };
 
-export const Cards = [
+export const heroProduct = [
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+];
+
+export const popularProduct = [
   {
     id: 1,
     title: "Wireless Headphones with Dolby Surround Sound",
@@ -131,5 +189,109 @@ export const Cards = [
     priceBeforeDiscount: "145",
     thumbnailImg: redHeadphones,
     mainImg: blackHeadphones,
+  },
+];
+
+export const newArrivalProduct = [
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: newArrivalsOne,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: newArrivalsTwo,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: newArrivalsThree,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: newArrivalsOne,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: newArrivalsTwo,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: newArrivalsOne,
+  },
+];
+
+export const accessories = [watch, siri, soundBar, speaker];
+
+export const mainFeatures = [
+  {
+    imgSrc: deliverIcon,
+    featureTitle: "Free Delivery",
+  },
+  {
+    imgSrc: Checked,
+    featureTitle: "Verified Products",
+  },
+  {
+    imgSrc: Customer,
+    featureTitle: "24/7 Customer support",
   },
 ];

@@ -1,7 +1,26 @@
 import React from "react";
-import { blackHeadphones,cartIcon } from "../../assets";
+import {cartIcon } from "../../assets";
 import {Button} from "./index";
 
+
+export const HeroCard = ({title,img,price,dicountedPrice}) => {
+  return (
+    <div className="w-[250px] h-full ">
+      <img
+        src={img}
+        alt=""
+        className="absolute top-0 left-[30%] w-[100px] -translate-y-[50%]"
+      />
+      <div className="pt-[30%] w-full flex flex-col gap-2 px-2 pb-2">
+        <h2>{title}</h2>
+        <div className="flex space-x-10">
+          <p className="text-textHighlight">${price}</p>
+          <p className="line-through">${dicountedPrice}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const PopularCardContent = ({title,list,price,img}) => {
   console.log('Received list:', list);

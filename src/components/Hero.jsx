@@ -2,6 +2,7 @@ import React from "react";
 import { cartIcon, hero_image, scroll } from "../assets";
 import styles from "../style";
 import {HeroCard, Button, CardWrapper} from "./ui";
+import { heroProduct } from "../constants";
 
 
 const Hero = () => {
@@ -47,15 +48,10 @@ const Hero = () => {
           <div className={`flex flex-col lg:flex-row overflow-auto  space-x-2 md:space-x-11  justify-end items-center lg:pl-[5%] pt-20 no-scrollbar `}>
             
             <div className="flex space-x-10 ">
-              <CardWrapper cardColor="hero-card-gradient">
-                <HeroCard />
-              </CardWrapper >
-              <CardWrapper cardColor="hero-card-gradient">
-                <HeroCard />
-              </CardWrapper>
-              <CardWrapper cardColor="hero-card-gradient">
-                <HeroCard />
-              </CardWrapper>
+              {heroProduct.map((item)=>{ return   <CardWrapper cardColor="hero-card-gradient">
+                <HeroCard title={item.title} img={item.thumbnailImg} price={item.price} dicountedPrice={item.priceBeforeDiscount} />
+              </CardWrapper >})}
+            
             </div>
             <img 
               src={scroll}

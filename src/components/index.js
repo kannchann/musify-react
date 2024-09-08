@@ -4,7 +4,6 @@ import Hero from "./Hero";
 import Carousel from "./Carousel";
 import MobileNavbar from "./MobileNavbar";
 import AccessoriesSection from "./AccessoriesSection";
-import NewArrivalsSection from "./NewArrivalsSection";
 import Banner from "./Banner";
 import QRSection from "../components/QRSection";
 
@@ -16,6 +15,5 @@ export {
   MobileNavbar,
   Banner,
   AccessoriesSection,
-  NewArrivalsSection,
   QRSection,
 };

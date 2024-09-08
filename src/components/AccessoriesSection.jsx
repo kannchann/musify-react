@@ -1,6 +1,7 @@
 import React from "react";
 import { siri, soundBar, speaker, watch } from "../assets";
 import styles from "../style";
+import { accessories } from "../constants";
 
 const AccessoriesSection = () => {
   return (
@@ -10,34 +11,14 @@ const AccessoriesSection = () => {
           Try our other accessories
         </h2>
         <div className="flex flex-wrap gap-4 justify-center">
-          <div className="rounded-lg w-[340px] h-[200px] border border-white md:border-none md:w-[600px] md:h-[350px] overflow-hidden">
+          {accessories.map((item)=>{return     <div className="rounded-lg w-[340px] h-[200px] border border-white md:border-none md:w-[600px] md:h-[350px] overflow-hidden">
             <img
-              src={watch}
+              src={item}
               alt="Siri"
               className="rounded-lg w-full h-full object-cover"
             />
-          </div>
-          <div className="rounded-lg w-[340px] h-[200px] border border-white md:border-none md:w-[600px] md:h-[350px]  overflow-hidden">
-            <img
-              src={soundBar}
-              alt="Sound Bar"
-              className="rounded-lg w-full h-full object-cover"
-            />
-          </div>
-          <div className="rounded-lg w-[340px] h-[200px] border border-white md:border-none md:w-[600px] md:h-[350px]  overflow-hidden">
-            <img
-              src={siri}
-              alt="Watch"
-              className="rounded-lg w-full h-full object-cover"
-            />
-          </div>
-          <div className="rounded-lg w-[340px] h-[200px] border border-white md:border-none md:w-[600px] md:h-[350px]  overflow-hidden">
-            <img
-              src={speaker}
-              alt="Speaker"
-              className="rounded-lg w-full h-full object-cover"
-            />
-          </div>
+          </div>})}
+      
         </div>
       </div>
     </div>
