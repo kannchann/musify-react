@@ -1,3 +1,5 @@
+import { blackHeadphones, redHeadphones } from "../assets";
+
 export const navLinks = [
   {
     id: "home",
@@ -44,3 +46,90 @@ export const footerData = {
     "JBL Sound Partners",
   ],
 };
+
+export const Cards = [
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+  {
+    id: 1,
+    title: "Wireless Headphones with Dolby Surround Sound",
+    features: [
+      "Truely Wireless",
+      "Dolby Surround Sound",
+      "13hrs of playback time",
+      "Made in Germany",
+    ],
+    price: 125,
+    priceBeforeDiscount: "145",
+    thumbnailImg: redHeadphones,
+    mainImg: blackHeadphones,
+  },
+];

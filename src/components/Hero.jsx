@@ -44,14 +44,9 @@ const Hero = () => {
           </div>
           </div>
 
-          <div className={`flex flex-col-reverse lg:flex-row space-x-2 md:space-x-11 justify-end items-center gap-7 lg:pl-[5%] mt-20`}>
+          <div className={`flex flex-col lg:flex-row overflow-auto  space-x-2 md:space-x-11  justify-end items-center lg:pl-[5%] pt-20 no-scrollbar `}>
             
-            <img
-              src={scroll}
-              alt=""
-              className="w-[60px] h-[60px] cursor-pointer"
-            />
-            <div className="flex  space-x-10 ">
+            <div className="flex space-x-10 ">
               <CardWrapper cardColor="hero-card-gradient">
                 <HeroCard />
               </CardWrapper >
@@ -62,8 +57,14 @@ const Hero = () => {
                 <HeroCard />
               </CardWrapper>
             </div>
-          
+            <img 
+              src={scroll}
+              alt=""
+              className="w-[60px] h-[60px] cursor-pointer order-1 hidden md:block"
+            />
+
         </div>
+     
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { redHeadphones } from '../../assets'
 
 const HeroCard = () => {
   return (
-    <div className="w-[250px]">
+    <div className="w-[250px] h-full ">
       <img
         src={redHeadphones}
         alt=""
