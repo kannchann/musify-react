@@ -27,7 +27,7 @@ export default function Footer() {
 
 
           {/* Logo and Newsletter */}
-          <div className="w-full pl-[50%] md:pl-0 md:w-1/4 order-6 md:-order-1">
+          <div className="w-full pl-[30%] md:pl-0 md:w-1/4 order-6 md:-order-1">
               <img src={logo} alt="Musify Logo" className=" w-[150px] md:w-[300px] h-auto" />
           </div>
 

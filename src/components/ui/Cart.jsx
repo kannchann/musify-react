@@ -1,9 +1,13 @@
 import React from 'react'
 import { cartIcon } from '../../assets';
+import { Router, useNavigate } from 'react-router-dom';
 
 const Cart = () => {
+
+  const navigate = useNavigate();
+
   return (
-    <div><img src={cartIcon} alt="" className='w-[24px] h-[24px]'/></div>
+    <div onClick={()=>navigate('/cart')}><img src={cartIcon} alt="" className='w-[24px] h-[24px] cursor-pointer'/></div>
   )
 }
 

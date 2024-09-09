@@ -3,15 +3,16 @@ import { navLinks } from "../constants";
 import { Search, Button, Cart, ThemeToggle } from "./ui";
 import {MobileNavbar} from "../components";
 import styles from '../style';
-import { Link, NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <nav className={`bg-primary  ${styles.paddingX}`}>
       <div className={`${styles.boxWidth} relative z-100`}>
         <div className="flex flex-1 items-center justify-between">
         <MobileNavbar />
-          <img src={logo} alt="logo" className="w-[100px] h-auto" />
+          <img onClick={()=>navigate('/')} src={logo} alt="logo" className="w-[100px] h-auto cursor-pointer" />
 
           {/* Navigation Links and Icons */}
           <div className="flex flex-1 space-x-6 justify-end items-center">

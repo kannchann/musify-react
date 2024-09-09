@@ -6,15 +6,19 @@ function changeTheme(dark){
   const darkStyles = {
     primary: documentStyles.getPropertyValue('--primary-dark-background'),
     secondary: documentStyles.getPropertyValue('--primary-light-background'),
+    textGrey: documentStyles.getPropertyValue('--primary-light-grey'),
    
   }
   const lightStyles = {
     primary: documentStyles.getPropertyValue('--primary-light-background'),
-    secondary: documentStyles.getPropertyValue('--primary-dark-background')
+    secondary: documentStyles.getPropertyValue('--primary-dark-background'),
+    textGrey: documentStyles.getPropertyValue('--primary-dark-grey'),
   }
   const theme = dark ? darkStyles : lightStyles;
   document.documentElement.style.setProperty('--primary-background', theme.primary);
   document.documentElement.style.setProperty('--secondary-background', theme.secondary);
+  document.documentElement.style.setProperty('--primary-grey', theme.textGrey);
+
 
 }
 
@@ -32,7 +36,7 @@ const ThemeToggle = () => {
   <div
       className={`${
           darkMode ? 'translate-x-6 ' : 'translate-x-0'
-      } h-4 w-4 bg-textGrey rounded-full transform transition-transform duration-200`}
+      } h-4 w-4 bg-[#888888] rounded-full transform transition-transform duration-200`}
   />
 
   <span
