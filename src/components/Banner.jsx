@@ -6,9 +6,9 @@ import { mainFeatures } from "../constants";
 
 const Banner = () => {
   return (
-    <div className={`bg-black ${styles.paddingY} ${styles.paddingX} text-white`}>
+    <div className={`bg-primary ${styles.paddingY} ${styles.paddingX} `}>
       <div
-        className={`${styles.boxWidth} banner-gradient flex flex-col items-center py-8 space-y-10 rounded-lg`}
+        className={`${styles.boxWidth} banner-gradient flex flex-col items-center py-8 space-y-10 text-white rounded-lg`}
       >
         <h3 className="font-bold text-2xl">Why buy directly from Musify?</h3>
         <div className={`md:flex-row flex flex-col gap-7 md:justify-between md:items-center md:w-full ${styles.paddingX}`}>
@@ -26,7 +26,7 @@ const Banner = () => {
 
 
 
-      <div className={` ${styles.paddingY} flex flex-col space-y-7 justify-center items-center md:flex-row md:justify-around ${styles.boxWidth}`}>
+      <div className={` ${styles.paddingY} flex flex-col space-y-7 text-secondary justify-center items-center md:flex-row md:justify-around ${styles.boxWidth}`}>
       <h2 className="text-3xl font-bold text-center block md:hidden">Exclusive Offer</h2>
       <div className="rounded-full bg-primaryBlue w-[290px] lg:w-[500px] relative  ">
             <div className="absolute bg-primaryPurple text-white w-[100px] h-[100px] left-[10%] rounded-full text-center p-6 font-bold text-xl">

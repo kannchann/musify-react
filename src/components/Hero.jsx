@@ -1,5 +1,5 @@
 import React from "react";
-import { cartIcon, hero_image, scroll } from "../assets";
+import { cartIcon, cartOrange, hero_image, scroll } from "../assets";
 import styles from "../style";
 import {HeroCard, Button, CardWrapper} from "./ui";
 import { heroProduct } from "../constants";
@@ -8,7 +8,7 @@ import { heroProduct } from "../constants";
 const Hero = () => {
   return (
     <div
-      className={`relative bg-primaryDark ${styles.paddingX} ${styles.paddingY}`}
+      className={`relative bg-primary ${styles.paddingX} ${styles.paddingY}`}
     >
       {/* Blurred Background Circles */}
       <div className="w-[600px] h-[600px] hidden md:block absolute bottom-10 left-5 bg-primaryBlue rounded-full blur-[500px]"></div>
@@ -23,7 +23,7 @@ const Hero = () => {
       {/* Content Wrapper */}
       <div className={`relative flex flex-col z-10 ${styles.boxWidth}`}>
         {/* Text Section */}
-        <div className="text-white w-full md:w-[70%] lg:w-[50%] space-y-3">
+        <div className="text-secondary w-full md:w-[70%] lg:w-[50%] space-y-3">
           <h1 className="text-3xl sm:text-[4rem] sm:leading-[80px] font-bold sm:tracking-[5%]">
             Let’s Dive in
             <br /> <span className="text-primaryOrange">Music</span> World
@@ -39,17 +39,17 @@ const Hero = () => {
               btnText="Add to Cart"
               variant="secondary"
               size="small"
-              iconsrc={cartIcon}
+              iconsrc={cartOrange}
               link="cart"
             />
           </div>
           </div>
 
-          <div className={`flex flex-col lg:flex-row overflow-auto  space-x-2 md:space-x-11  justify-end items-center lg:pl-[5%] pt-20 no-scrollbar `}>
+          <div className={`flex flex-col lg:flex-row overflow-x-scroll  space-x-2 md:space-x-11  justify-end items-center pl-0 lg:pl-[5%] pt-20 no-scrollbar `}>
             
             <div className="flex space-x-10 ">
               {heroProduct.map((item)=>{ return   <CardWrapper cardColor="hero-card-gradient">
-                <HeroCard title={item.title} img={item.thumbnailImg} price={item.price} dicountedPrice={item.priceBeforeDiscount} />
+                <HeroCard  title={item.title} img={item.thumbnailImg} price={item.price} dicountedPrice={item.priceBeforeDiscount} />
               </CardWrapper >})}
             
             </div>

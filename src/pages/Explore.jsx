@@ -2,7 +2,7 @@ import React from 'react'
 
 const Explore = () => {
   return (
-    <div>Explore</div>
+    <div className=' text-center p-[20%] text-4xl font-bold bg-primary text-secondary'>Welcome to Explore</div>
   )
 }
 

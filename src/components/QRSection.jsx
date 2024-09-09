@@ -5,7 +5,7 @@ import { appStore, playStore, qr } from "../assets";
 const QRSection = () => {
   return (
     <div
-      className={`bg-black ${styles.paddingY} ${styles.paddingX} text-white`}
+      className={`bg-primary ${styles.paddingY} ${styles.paddingX} text-white`}
     >
       <div
         className={`${styles.boxWidth} ${styles.paddingX} banner-gradient flex flex-col lg:flex-row justify-center lg:space-x-20 items-center py-8 space-y-10 rounded-lg`}

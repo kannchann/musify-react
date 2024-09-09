@@ -7,7 +7,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className={`bg-primaryDark  ${styles.paddingX}`}>
+    <nav className={`bg-primary  ${styles.paddingX}`}>
       <div className={`${styles.boxWidth} relative z-100`}>
         <div className="flex flex-1 items-center justify-between">
         <MobileNavbar />
@@ -19,7 +19,7 @@ const Navbar = () => {
               {navLinks.map((navLink) => (
                 <li
                   key={navLink.id}
-                  className="cursor-pointer transition-all text-white hover:border-b-2 hover:border-primaryOrange"
+                  className="cursor-pointer transition-all text-secondary hover:border-b-2 hover:border-primaryOrange"
                 >
                    <NavLink to={`${navLink.path}`} className={({isActive}) => { return isActive ? 'text-primaryOrange' : '' }}>
                   {navLink.title}

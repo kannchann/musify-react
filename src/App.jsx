@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Home from './pages/Home';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import NotFound from './pages/NotFound';
@@ -24,10 +24,25 @@ const router = createBrowserRouter([
   },
 ]);
 
-const App = () => (
-    <div>
-     <RouterProvider router={router} />
-    </div>
+
+const App = () => {
+  // const [count,setCount] = useState(0);
+
+
+  // useEffect(()=>{
+  //   console.log('count change')
+  // },[count]);
+
+  // const handleClick = () => {
+  //   setCount(count + 1)
+  // }
+
+  return (
+      <div>
+        {/* <button onClick={handleClick}>count</button> */}
+       <RouterProvider router={router} />
+      </div>
   )
+}
 
 export default App

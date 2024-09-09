@@ -16,6 +16,8 @@ import newArrivalsOne from "./newarrivals-one.jpeg";
 import newArrivalsTwo from "./newarrivals-two.jpeg";
 import newArrivalsThree from "./newarrivals-three.jpeg";
 
+import cartOrange from "./cart-orange.svg";
+
 import soundBar from "./soundBar.jpeg";
 import speaker from "./speaker.jpeg";
 import siri from "./siri.jpeg";
@@ -56,4 +58,5 @@ export {
   InstaLogo,
   GoogleLogo,
   TwitterLogo,
+  cartOrange,
 };

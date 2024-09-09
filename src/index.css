@@ -5,10 +5,24 @@
 @tailwind utilities;
 
 
+:root {
+  --primary-light-background: #FAFAFA;
+  --primary-dark-background: #070606;
+
+
+  --black-icon: #000000;
+  --white-icon: #FFFFFF;
+  --blacki:var(--black-icon);
+
+  --primary-background: var(--primary-light-background);
+  --secondary-background: var(--primary-dark-background);
+
+}
+
 
 html{
     @apply font-figTree;
-    /* background: black; */
+ 
   }
 
   
