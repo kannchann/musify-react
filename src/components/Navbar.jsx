@@ -5,7 +5,7 @@ import {MobileNavbar} from "../components";
 import styles from '../style';
 import { NavLink, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({onSearchClick}) => {
   const navigate = useNavigate();
   return (
     <nav className={`bg-primary  ${styles.paddingX}`}>

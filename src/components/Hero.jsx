@@ -5,7 +5,8 @@ import {HeroCard, Button, CardWrapper} from "./ui";
 import { heroProduct } from "../constants";
 
 
-const Hero = () => {
+
+const Hero = ({ targetRef }) => {
   return (
     <div
       className={`relative bg-primary ${styles.paddingX} ${styles.paddingY}`}
@@ -53,11 +54,16 @@ const Hero = () => {
               </CardWrapper >})}
             
             </div>
-            <img 
+            <button onClick={() =>
+          targetRef.current?.scrollIntoView({
+            behavior: 'smooth',
+          })
+        }> <img 
               src={scroll}
               alt=""
               className="w-[60px] h-[60px] cursor-pointer order-1 hidden md:block"
-            />
+            /></button>
+           
 
         </div>
      

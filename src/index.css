@@ -15,6 +15,7 @@
 
   --primary-background: var(--primary-light-background);
   --secondary-background: var(--primary-dark-background);
+  --primary-grey: var(var(--primary-light-grey));
 
 }
 
