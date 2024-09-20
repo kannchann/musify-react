@@ -4,9 +4,17 @@ import { Search, Button, Cart, ThemeToggle } from "./ui";
 import {MobileNavbar} from "../components";
 import styles from '../style';
 import { NavLink, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Navbar = ({onSearchClick}) => {
   const navigate = useNavigate();
+  const [themeClicked, setThemeClicked] = useState(true);
+
+  const changedTheme = () =>{
+    setThemeClicked((prev)=>!prev);
+    console.log("Changed");
+  }
+
   return (
     <nav className={`bg-primary  ${styles.paddingX}`}>
       <div className={`${styles.boxWidth} relative z-100`}>
@@ -30,9 +38,9 @@ const Navbar = ({onSearchClick}) => {
             </ul>
 
             {/* Theme Toggle, Search, Cart, and Login Button */}
-            <ThemeToggle />
-            <Search />
-            <Cart />
+            <ThemeToggle changedTheme={changedTheme} />
+            <Search theme={themeClicked} />
+            <Cart theme={themeClicked}/>
             <div className="hidden md:block">
             <Button btnText="Login" variant="secondary" size="small" link="login" />
 

@@ -32,8 +32,8 @@ const PopularCardContent = ({title,list,price,img}) => {
       <div className="w-full flex flex-col space-y-6 px-5 py-3 ">
         <h2 className="lg:text-lg">{title}</h2>
         <ul className="list-disc pl-5">
-        {list.map((li) => (
-            <li>{li}</li>
+        {list.map((li,index) => (
+            <li key={index}>{li}</li>
           ))}
         </ul>
         <p className="text-textHighlight">${price}</p>

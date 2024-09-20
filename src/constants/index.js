@@ -76,7 +76,7 @@ export const heroProduct = [
     mainImg: blackHeadphones,
   },
   {
-    id: 1,
+    id: 2,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -90,7 +90,7 @@ export const heroProduct = [
     mainImg: blackHeadphones,
   },
   {
-    id: 1,
+    id: 3,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -121,7 +121,7 @@ export const popularProduct = [
     mainImg: blackHeadphones,
   },
   {
-    id: 1,
+    id: 2,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -135,7 +135,7 @@ export const popularProduct = [
     mainImg: blackHeadphones,
   },
   {
-    id: 1,
+    id: 3,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -149,7 +149,7 @@ export const popularProduct = [
     mainImg: blackHeadphones,
   },
   {
-    id: 1,
+    id: 4,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -163,7 +163,7 @@ export const popularProduct = [
     mainImg: blackHeadphones,
   },
   {
-    id: 1,
+    id: 5,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -177,7 +177,7 @@ export const popularProduct = [
     mainImg: blackHeadphones,
   },
   {
-    id: 1,
+    id: 6,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -208,7 +208,7 @@ export const newArrivalProduct = [
     mainImg: newArrivalsOne,
   },
   {
-    id: 1,
+    id: 2,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -222,7 +222,7 @@ export const newArrivalProduct = [
     mainImg: newArrivalsTwo,
   },
   {
-    id: 1,
+    id: 3,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -236,7 +236,7 @@ export const newArrivalProduct = [
     mainImg: newArrivalsThree,
   },
   {
-    id: 1,
+    id: 4,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -250,7 +250,7 @@ export const newArrivalProduct = [
     mainImg: newArrivalsOne,
   },
   {
-    id: 1,
+    id: 5,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",
@@ -264,7 +264,7 @@ export const newArrivalProduct = [
     mainImg: newArrivalsTwo,
   },
   {
-    id: 1,
+    id: 6,
     title: "Wireless Headphones with Dolby Surround Sound",
     features: [
       "Truely Wireless",

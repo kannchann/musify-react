@@ -15,11 +15,13 @@ const Hero = ({ targetRef }) => {
       <div className="w-[600px] h-[600px] hidden md:block absolute bottom-10 left-5 bg-primaryBlue rounded-full blur-[500px]"></div>
       <div className="w-[600px] h-[600px] hidden md:block  absolute top-0 right-5 bg-primaryPurple rounded-full blur-[500px]"></div>
       {/* hero-image  */}
-      {/* <img
+      {/* <div className="pointer-events-none object-contain  w-1/2 absolute bottom-0 right-0 bg-hero-image-gradient hidden md:block">
+      <img
         src={hero_image}
         alt="Hero"
-        className="object-contain w-1/2 absolute bottom-0 right-0 bg-hero-image-gradient"
-      /> */}
+        className=""
+      />
+      </div> */}
 
       {/* Content Wrapper */}
       <div className={`relative flex flex-col z-10 ${styles.boxWidth}`}>
@@ -49,7 +51,7 @@ const Hero = ({ targetRef }) => {
           <div className={`flex flex-col lg:flex-row overflow-x-scroll  space-x-2 md:space-x-11  justify-end items-center pl-0 lg:pl-[5%] pt-20 no-scrollbar `}>
             
             <div className="flex space-x-10 ">
-              {heroProduct.map((item)=>{ return   <CardWrapper cardColor="hero-card-gradient">
+              {heroProduct.map((item)=>{ return   <CardWrapper key={item.id} cardColor="hero-card-gradient">
                 <HeroCard  title={item.title} img={item.thumbnailImg} price={item.price} dicountedPrice={item.priceBeforeDiscount} />
               </CardWrapper >})}
             

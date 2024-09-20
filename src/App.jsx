@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Home from './pages/Home';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
-import NotFound from './pages/NotFound';
 import AddToCart from './pages/AddToCart';
 import Login from './pages/Login';
 import Payment from './pages/Payment';

@@ -13,8 +13,8 @@ const Banner = () => {
         <h3 className="font-bold text-2xl">Why buy directly from Musify?</h3>
         <div className={`md:flex-row flex flex-col gap-7 md:justify-between md:items-center md:w-full ${styles.paddingX}`}>
 
-          {mainFeatures.map((feature) => {
-            return <div className="flex lg:flex-1 gap-2 items-center">
+          {mainFeatures.map((feature,index) => {
+            return <div key={index} className="flex lg:flex-1 gap-2 items-center">
             <img src={feature.imgSrc} alt="Free Delivery" />
             <p>{feature.featureTitle}</p>
           </div>

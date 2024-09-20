@@ -10,7 +10,7 @@ const AccessoriesSection = () => {
           Try our other accessories
         </h2>
         <div className="flex flex-wrap gap-4 justify-center">
-          {accessories.map((item)=>{return   <div className="rounded-lg w-[340px] h-[200px] border border-white md:border-none md:w-[600px] md:h-[350px] overflow-hidden">
+          {accessories.map((item,index)=>{return   <div key={index} className="rounded-lg w-[340px] h-[200px] border border-white md:border-none md:w-[600px] md:h-[350px] overflow-hidden">
             <img
               src={item}
               alt="Siri"

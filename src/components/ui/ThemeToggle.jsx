@@ -22,9 +22,10 @@ function changeTheme(dark){
 
 }
 
-const ThemeToggle = () => {
+const ThemeToggle = ({changedTheme}) => {
   const [darkMode, setDarkMode] = useState(false);
     function toggleTheme() {
+      changedTheme();
         changeTheme(!darkMode);
         setDarkMode((prev) => !prev);
     }

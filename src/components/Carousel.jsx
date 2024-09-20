@@ -10,7 +10,7 @@ const Carousel = ({ heading, data, color }) => {
         <h2 className="text-3xl p-8 text-center text-secondary font-bold">{heading}</h2>
         <div className="grid grid-flow-col justify-between gap-7 overflow-scroll no-scrollbar">
           {data.map((card) => {
-             return <CardWrapper cardColor={color}>
+             return <CardWrapper key={card.id} cardColor={color}>
               <PopularCardContent
                 key={card.id}
                 title={card.title}
